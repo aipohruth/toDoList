@@ -14,6 +14,6 @@
 
 <div id="task"></div>
 </div>
-<script src="todo.js"></script>
+<script src="main.js"></script>
     </body>
     </html>
