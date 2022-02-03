@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: #eceff1;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fafafa;
+    text-align: center;
+    width: 400px;
+    height: 550px;
+    border-radius: 5px;
+}
+.container h1{
+    font-size: 25px;
+    margin: 20px 0;
+    padding-top: 20px;
+}
+#inputField{
+    margin: 20px 0;
+    padding: 12px 6px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50%;
+    margin-right: 10px;
+    margin-left: -15px;
+}
+.butts{
+    padding: 12px;
+    border-radius:30px ;
+    outline: none;
+    border: 1px solid gray;
+    cursor: pointer;
+    font-size: 16px;
+}
+.butt{
+    padding: 14px;
+    cursor: pointer;
+    outline: none;
+    border-radius:20px ;
+    border: 1px solid gray;
+    font-weight: bolder;
+}
+.butts:hover{
+    background-color: rgb(125, 69, 165);
+}
+.butt:hover{
+    background-color: rgb(63, 235, 106);
+}
+
+.paragraph-styling{
+    margin: 2px;
+    cursor: pointer;
+    font-size: 18px;
+}
+/*Medis query*/
+@media screen and (max-width: 500px) {
+    .container h1{
+        font-size: 22px;
+        margin: 25px 0;
+    }  
+    .container{
+       width: 100%;
+        height: 100vh;
+        border-radius: 0px
+    }
+    #inputField{
+        padding: 12px 5px;
+        width: 45%;
+        margin-right: 7px;
+    }
+}
